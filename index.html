@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday, Samzana ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+  <div class="loader-heart">♥</div>
+  <p>Preparing a little memory...</p>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor-glow"></div>
+
+<!-- FLOATING PARTICLES -->
+<div id="particles"></div>
+
+
+<main>
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero section" id="home">
+
+    <div class="hero-orb orb-one"></div>
+    <div class="hero-orb orb-two"></div>
+
+    <div class="hero-content reveal">
+
+      <span class="eyebrow">
+        A LITTLE SURPRISE FROM BEESHAL
+      </span>
+
+      <h1>
+        Happy Birthday,
+        <br>
+        <span>SAMZANA</span>
+        <b>♥</b>
+      </h1>
+
+      <p class="hero-subtitle">
+        A small journey through memories, moments,
+        and one special birthday wish.
+      </p>
+
+      <button class="primary-btn magnetic" id="startBtn">
+        Open Your Surprise ✨
+      </button>
+
+    </div>
+
+    <div class="scroll-hint">
+      SCROLL TO BEGIN
+      <span>↓</span>
+    </div>
+
+  </section>
+
+
+  <!-- ================= MEMORIES ================= -->
+
+  <section class="section memories" id="memories">
+
+    <div class="section-heading reveal">
+
+      <span class="eyebrow">
+        CHAPTER 01
+      </span>
+
+      <h2>
+        Our Memories 🎥
+      </h2>
+
+      <p>
+        Four little windows into moments
+        that still feel special.
+      </p>
+
+    </div>
+
+
+    <div class="video-grid">
+
+      <!-- VIDEO 1 -->
+
+      <article class="glass-card video-card reveal">
+
+        <div class="video-wrap">
+
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            src="videos/memory1.mp4">
+          </video>
+
+          <span class="card-number">
+            01
+          </span>
+
+        </div>
+
+        <h3>A Memory</h3>
+
+        <p>
+          One moment worth remembering.
+        </p>
+
+      </article>
+
+
+      <!-- VIDEO 2 -->
+
+      <article class="glass-card video-card reveal">
+
+        <div class="video-wrap">
+
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            src="videos/memory2.mp4">
+          </video>
+
+          <span class="card-number">
+            02
+          </span>
+
+        </div>
+
+        <h3>A Moment</h3>
+
+        <p>
+          A tiny chapter from our story.
+        </p>
+
+      </article>
+
+
+      <!-- VIDEO 3 -->
+
+      <article class="glass-card video-card reveal">
+
+        <div class="video-wrap">
+
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            src="videos/memory3.mp4">
+          </video>
+
+          <span class="card-number">
+            03
+          </span>
+
+        </div>
+
+        <h3>A Story</h3>
+
+        <p>
+          Something the years can't quite erase.
+        </p>
+
+      </article>
+
+
+      <!-- VIDEO 4 -->
+
+      <article class="glass-card video-card reveal">
+
+        <div class="video-wrap">
+
+          <video
+            controls
+            playsinline
+            preload="metadata"
+            src="videos/memory4.mp4">
+          </video>
+
+          <span class="card-number">
+            04
+          </span>
+
+        </div>
+
+        <h3>A Chapter</h3>
+
+        <p>
+          A page I will always remember.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= PHOTOS ================= -->
+
+  <section class="section photos" id="photos">
+
+    <div class="section-heading reveal">
+
+      <span class="eyebrow">
+        CHAPTER 02
+      </span>
+
+      <h2>
+        My Favourite Photos 📸
+      </h2>
+
+      <p>
+        Some photographs become more than photographs.
+      </p>
+
+    </div>
+
+
+    <div class="photo-grid">
+
+      <button
+        class="photo-card reveal"
+        data-photo="images/photo1.jpg">
+
+        <img
+          src="images/photo1.jpg"
+          alt="Favourite memory 1">
+
+        <span>01</span>
+
+      </button>
+
+
+      <button
+        class="photo-card reveal"
+        data-photo="images/photo2.jpg">
+
+        <img
+          src="images/photo2.jpg"
+          alt="Favourite memory 2">
+
+        <span>02</span>
+
+      </button>
+
+
+      <button
+        class="photo-card reveal"
+        data-photo="images/photo3.jpg">
+
+        <img
+          src="images/photo3.jpg"
+          alt="Favourite memory 3">
+
+        <span>03</span>
+
+      </button>
+
+
+      <button
+        class="photo-card reveal"
+        data-photo="images/photo4.jpg">
+
+        <img
+          src="images/photo4.jpg"
+          alt="Favourite memory 4">
+
+        <span>04</span>
+
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= GAMES ================= -->
+
+  <section class="section games" id="games">
+
+    <div class="section-heading reveal">
+
+      <span class="eyebrow">
+        CHAPTER 03
+      </span>
+
+      <h2>
+        A Few Little Games ✨
+      </h2>
+
+      <p>
+        No pressure. Just something cute to play with.
+      </p>
+
+    </div>
+
+
+    <div class="game-grid">
+
+
+      <!-- MEMORY MATCH -->
+
+      <div class="game glass-card reveal">
+
+        <div class="game-icon">
+          🃏
+        </div>
+
+        <h3>
+          Memory Match
+        </h3>
+
+        <p>
+          Find all the matching pairs.
+        </p>
+
+        <div
+          class="memory-board"
+          id="memoryBoard">
+        </div>
+
+        <button
+          class="small-btn"
+          id="resetMemory">
+
+          Shuffle Again
+
+        </button>
+
+      </div>
+
+
+      <!-- GUESS MEMORY -->
+
+      <div class="game glass-card reveal">
+
+        <div class="game-icon">
+          💭
+        </div>
+
+        <h3>
+          Guess the Memory
+        </h3>
+
+        <p id="clue">
+          Which one feels like a little adventure?
+        </p>
+
+        <div
+          class="guess-options"
+          id="guessOptions">
+        </div>
+
+        <div
+          class="game-result"
+          id="guessResult">
+        </div>
+
+      </div>
+
+
+      <!-- HEART GAME -->
+
+      <div class="game glass-card reveal heart-game">
+
+        <div class="game-icon">
+          ❤️
+        </div>
+
+        <h3>
+          Heart Collector
+        </h3>
+
+        <p>
+          Catch 10 floating hearts before time runs out.
+        </p>
+
+        <div
+          class="heart-arena"
+          id="heartArena">
+
+          <span
+            class="game-timer"
+            id="heartTimer">
+            20
+          </span>
+
+          <button id="heartStart">
+            Start
+          </button>
+
+        </div>
+
+        <div class="score">
+          Hearts:
+          <strong id="heartScore">0</strong>/10
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= MESSAGE ================= -->
+
+  <section
+    class="section letter"
+    id="message">
+
+    <div class="letter-glow"></div>
+
+    <div class="letter-content reveal">
+
+      <span class="eyebrow">
+        CHAPTER 04
+      </span>
+
+      <h2>
+        A Birthday Message
+      </h2>
+
+      <div class="message-box">
+
+        <p class="type-line">
+          Some people become a part of our past,
+          but that doesn't mean every memory disappears.
+        </p>
+
+        <p class="type-line">
+          Some moments remain quietly special,
+          no matter how much time passes.
+        </p>
+
+        <p class="type-line">
+          Today, I don't want to ask for anything.
+          I just want to wish you a beautiful birthday
+          and remind you that the memories we shared
+          will always have a special place in my story.
+        </p>
+
+        <p class="type-line">
+          I hope life gives you reasons to smile,
+          dreams worth chasing,
+          and people who make your days brighter.
+        </p>
+
+        <p class="signature">
+          — Beeshal
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= FINAL QUESTION ================= -->
+
+  <section
+    class="final-question section"
+    id="question">
+
+    <div class="question-petals"></div>
+
+    <div class="heart-3d">
+      ♥
+    </div>
+
+    <span class="eyebrow">
+      THE LAST CHAPTER
+    </span>
+
+    <h2>
+      Do you still love Beeshal? ❤️
+    </h2>
+
+    <p>
+      You can choose honestly.
+      Either answer is okay.
+    </p>
+
+    <div class="answer-buttons">
+
+      <button
+        class="answer yes magnetic"
+        id="yesBtn">
+
+        YES ❤️
+
+      </button>
+
+      <button
+        class="answer no magnetic"
+        id="noBtn">
+
+        NO 🌙
+
+      </button>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- ================= ENDING ================= -->
+
+<div
+  class="ending"
+  id="ending">
+
+  <div id="endingParticles"></div>
+
+  <div class="ending-content">
+
+    <div
+      class="ending-symbol"
+      id="endingSymbol">
+
+      ♥
+
+    </div>
+
+    <span
+      class="eyebrow"
+      id="endingEyebrow">
+
+      A LITTLE MORE TO SAY
+
+    </span>
+
+    <h2 id="endingTitle"></h2>
+
+    <p id="endingText"></p>
+
+    <button
+      class="primary-btn"
+      id="replayBtn">
+
+      Replay the Journey ↻
+
+    </button>
+
+  </div>
+
+</div>
+
+
+<!-- ================= PHOTO LIGHTBOX ================= -->
+
+<div
+  class="lightbox"
+  id="lightbox">
+
+  <button
+    class="lightbox-close"
+    id="lightboxClose">
+
+    ×
+
+  </button>
+
+  <img
+    id="lightboxImage"
+    src=""
+    alt="Expanded memory">
+
+</div>
+
+
+<!-- AUDIO -->
+
+<audio
+  id="endingAudio"
+  preload="auto">
+</audio>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
